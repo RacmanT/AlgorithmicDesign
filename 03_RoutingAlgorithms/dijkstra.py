@@ -1,6 +1,10 @@
 from heap import binheap
 from math import inf
 
+# Author: Tibor Racman
+# Date: 16/05/2021
+# Description: Third Assignament question 1.a
+
 def dijkstra(graph, source, *finish):
     '''dijsktra standard implementation. Graph should be given as {node:adiacency list}.
        Final destination is optional'''

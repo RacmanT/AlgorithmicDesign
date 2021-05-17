@@ -3,6 +3,10 @@ from shortcuts import _get_backward_neighbours, add_shortcuts_to_graph
 from math import  inf
 import copy
 
+# Author: Tibor Racman
+# Date: 16/05/2021
+# Description: Third Assignament question 2.b
+
 def _reverse_graph(graph):
     '''compute the reverse graph by turning the arrows direction'''
     graph_star = copy.deepcopy(graph)

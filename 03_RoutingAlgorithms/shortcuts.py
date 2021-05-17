@@ -1,6 +1,10 @@
 from dijkstra import dijkstra
 import copy
 
+# Author: Tibor Racman
+# Date: 16/05/2021
+# Description: Third Assignament question 2.a
+
 def _add_shortcut(graph, node):
     '''add the shortcuts instead of a node '''
     for backward_neighbour in _get_backward_neighbours(graph, node):
